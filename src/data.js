@@ -1,57 +1,26 @@
-const movies = [
+export const movies = [
   {
-    title: "Doctor Strange",
-    time: 115,
-    genres: ["Action", "Adventure", "Fantasy"],
+    title: "Inception",
+    time: "148 mins",
+    genres: ["Sci-Fi", "Thriller"]
   },
   {
-    title: "Trolls",
-    time: 92,
-    genres: ["Animation", "Adventure", "Comedy", "Family", "Fantasy"],
-  },
-  {
-    title: "Jack Reacher: Never Go Back",
-    time: 118,
-    genres: ["Action", "Adventure", "Crime", "Mystery", "Thriller"],
-  },
+    title: "Interstellar",
+    time: "169 mins",
+    genres: ["Sci-Fi", "Drama"]
+  }
 ];
 
-const actors = [
+export const directors = [
   {
-    name: "Benedict Cumberbatch",
-    movies: ["Doctor Strange", "The Imitation Game", "Black Mass"],
-  },
-  {
-    name: "Justin Timberlake",
-    movies: ["Trolls", "Friends with Benefits", "The Social Network"],
-  },
-  {
-    name: "Anna Kendrick",
-    movies: ["Pitch Perfect", "Into The Wood"],
-  },
-  {
-    name: "Tom Cruise",
-    movies: [
-      "Jack Reacher: Never Go Back",
-      "Mission Impossible 4",
-      "War of the Worlds",
-    ],
-  },
+    name: "Christopher Nolan",
+    movies: ["Inception", "Interstellar"]
+  }
 ];
 
-const directors = [
+export const actors = [
   {
-    name: "Scott Derrickson",
-    movies: ["Doctor Strange", "Sinister", "The Exorcism of Emily Rose"],
-  },
-  {
-    name: "Mike Mitchell",
-    movies: ["Trolls", "Alvin and the Chipmunks: Chipwrecked", "Sky High"],
-  },
-  {
-    name: "Edward Zwick",
-    movies: ["Jack Reacher: Never Go Back", "Blood Diamon", "The Siege"],
-  },
+    name: "Leonardo DiCaprio",
+    movies: ["Inception"]
+  }
 ];
-
-export { movies, actors, directors };
